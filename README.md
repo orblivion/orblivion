@@ -1,5 +1,6 @@
+# Code Samples
 
-## Code Samples
+## Exercises
   * **Python**: https://github.com/orblivion/hellolabs_word_test
   * **Elang (without OTP)**: https://github.com/orblivion/erlang_chat_exercise
   * **Haskell**: https://github.com/orblivion/random-chain
