@@ -7,7 +7,7 @@ I should note that I'm (as of this writing) a Python developer by trade, and it'
 # Code Samples
 
 ## Projects
-* **Haskell-Synth** - an attempt to make a Sound/Music synthesizer, in Haskell. It would generate a simple measure of electronic music based on hard coded instructions: https://github.com/orblivion/Haskell-Synth
+* **Haskell-Synth** - an attempt to make a Sound/Music synthesizer, in Haskell. It generates a simple sequence of electronic music based on hard coded instructions: https://github.com/orblivion/Haskell-Synth
 * **Feed Getter** - a purposely simple Podcast downloader written in Haskell: https://github.com/orblivion/feedGetter
 * **Fee Fighters - Samurai Python Client** - The initial version of the Python client for the Samurai api created by FeeFighters (now part of Groupon). I created this while working for Alltuition, where we were using FeeFighters to process payments. I should note that this is early in my Python days, and I've improved my style since then: https://github.com/orblivion/samurai-client-python/tree/demo
 
