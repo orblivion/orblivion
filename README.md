@@ -2,7 +2,7 @@ Hello,
 
 I set this page up because I thought that Github's interface makes it hard to highlight the interesting stuff on one's main account page (which of course you can find [here](https://github.com/orblivion/)), among all the forks one may have made, perhaps with only a one word change to a documentation string, or perhaps with ultimately no changes at all. Here's a few particularly interesting things I've made.
 
-I should note that while I've been a JavaScript, and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
+I should note that while I've been a Node.js, and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
 
 # Code Samples
 
