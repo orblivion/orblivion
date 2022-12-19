@@ -46,7 +46,7 @@ A couple minor documentation examples, again on the WebRTC plugin. It was my fir
 
 Given my experience working on Etherpad, I was commissioned to upgrade the Etherpad package for a platform called [Sandstorm](https://sandstorm.io) (Sandstorm per se is not my own work).
 
-There had been an existing Sandstorm package for Etherpad, but it was a few years old. We decided that it would be easier for me to make the new one from scratch, though I took most of the changes from the previous one. However some of them took some time to figure out how to adapt to the changes in Etherpad.
+There had been an existing Sandstorm package for Etherpad, but it was a few years old. We decided that it would be easier for me to make the new package from scratch, even though it amounted to copying most of the Sandstorm-specific changes from the previous package. However, since Etherpad itself had updated over the years, some of those Sandstorm-specific changes took quite some time to figure out how to adapt properly.
 
 Since my last commit in March 2022, others have made changes and released updates. You can see the public discussion about my part [here](https://github.com/sandstormports/community-project/issues/15).
 
