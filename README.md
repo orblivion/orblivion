@@ -52,6 +52,16 @@ Since my last commit in March 2022, others have made changes and released update
 
 ## My Own Projects
 
+### [Share-A-Map](https://github.com/orblivion/KiwixSandstorm) - An OpenStreetMap app for Sandstorm
+
+This project is a general purpose map web application, aiming to replace the basic functionality of the Google Maps web app the same way that OrganicMaps aims to replace the Google Maps phone app. It's made for a platform called [Sandstorm](https://sandstorm.io). Sandstorm facilitates making easy to manage, private web applications for users who want a simple self-hosting solution.
+
+The application allows users to collaborate by adding bookmark markers to the map. Say, for planning a vacation. Each user can then export the result and import it for use on their OpenStreetMap app on their phone (OrganicMaps, OSMAnd, etc) for navigation. The Share-A-Map facilitates privacy: the only entities with access to the data are the specific users of a given map, the Sandstorm administrator, and whoever owns the hardware Sandstorm i running on.
+
+Share-A-Map is able to be private because it's _fully_ self-hosted: all of the tiles are stored on the server (many OSM apps will still call to openstreetmap.org for tiles). Compared to other fully self-hosted OSM solutions, Share-A-Map is much simpler. It uses Protomaps for the tiles (much smaller) and a simple search backend (sqlite3 with fts5 as of this writing). The usual OSM stack requires postgresql for tiles and elasticsearch for search. As a result, it plays nicely with Sandstorm (which favors simple self-contained apps), and makes for an easy point-and-click experience for users, similar to a phone app.
+
+As of this writing, the application is still a work-in-progress, but there is a usable demo linked from the repo.
+
 ### [Haskell-Synth](https://github.com/orblivion/Haskell-Synth)
 
 An attempt to make a Sound/Music synthesizer, in Haskell. It generates a simple sequence of electronic music based on hard coded instructions. It really sold me on Haskell, as I made some really sophisticated refactors and the compiler kept me in check to an astounding degree.
