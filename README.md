@@ -85,7 +85,7 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 \* Kiwix also comes as a phone and desktop application
 
 ## Exercises/Samples
-  * **[Python - A file import plugin for Inkscape](https://github.com/orblivion/hpgl-coding-test)**:
-  * **[Python - A coding test for HelloLabs](https://github.com/orblivion/hellolabs_word_test)**:
+  * **[Python - A file import plugin for Inkscape](https://github.com/orblivion/hpgl-coding-test)**
+  * **[Python - A coding test for HelloLabs](https://github.com/orblivion/hellolabs_word_test)**
   * **[Erlang (without OTP) - A simple chat program](https://github.com/orblivion/erlang_chat_exercise)**
   * **[Haskell - A Markov chain, or something like it](https://github.com/orblivion/random-chain)**
