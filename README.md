@@ -4,6 +4,21 @@ I set this page up because I thought that Github's interface is not that well su
 
 I should note that while I've been a Node.js and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
 
+# Table Of Contents
+
+* [Code Samples](#code-samples)
+  * [Open Source Contributions](#open-source-contributions)
+    * [LBRY](#lbry)
+    * [Etherpad (JavaScript)](#etherpad-javascript)
+    * [Etherpad package for Sandstorm](#etherpad-package-for-sandstorm)
+  * [My Own Projects](#my-own-projects)
+    * [Share-A-Map - An OpenStreetMap app for Sandstorm](#share-a-map---an-openstreetmap-app-for-sandstorm)
+    * [Haskell-Synth](#haskell-synth)
+    * [Feed Getter (Haskell)](#feed-getter-haskell)
+    * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
+    * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
+  * [Exercises/Samples](#exercisessamples)
+
 # Code Samples
 
 ## Open Source Contributions
