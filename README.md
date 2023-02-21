@@ -101,3 +101,4 @@ Since my last commit in March 2022, others have made changes and released update
   * **[Python - A coding test for HelloLabs](https://github.com/orblivion/hellolabs_word_test)**
   * **[Erlang (without OTP) - A simple chat program](https://github.com/orblivion/erlang_chat_exercise)**
   * **[Haskell - A Markov chain, or something like it](https://github.com/orblivion/random-chain)**
+  * **[Rust - Advent of Code 2022 (first 11 days)](https://github.com/orblivion/aoc-2022)**
