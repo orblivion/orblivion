@@ -6,16 +6,16 @@ I should note that while I've been a Node.js and Go developer by trade, Python i
 
 # Table Of Contents
 
-* [Open Source Contributions](#open-source-contributions)
-  * [LBRY](#lbry)
-  * [Etherpad (JavaScript)](#etherpad-javascript)
-  * [Etherpad package for Sandstorm](#etherpad-package-for-sandstorm)
 * [My Own Projects](#my-own-projects)
   * [Share-A-Map - An OpenStreetMap app for Sandstorm](#share-a-map---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
+* [Open Source Contributions](#open-source-contributions)
+  * [LBRY](#lbry)
+  * [Etherpad (JavaScript)](#etherpad-javascript)
+  * [Etherpad package for Sandstorm](#etherpad-package-for-sandstorm)
 * [Exercises/Samples](#exercisessamples)
 
 # My Own Projects
