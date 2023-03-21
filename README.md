@@ -1,6 +1,6 @@
 Hello,
 
-I set this page up because I thought that Github's interface is not that well suited to a resume. It's hard to distinguish one's own projects from contributions made to other projects. Here, I would like to highlight some of the examples you might be looking for, and give a little context to them. (Of course you can still see my normal Github profile [here](https://github.com/orblivion))
+I set this page up because I thought that Github's user account interface is not that well suited to a portfolio. It's hard to distinguish one's own projects from contributions made to other projects. Here, I would like to highlight some of the examples you might be looking for, and give a little context to them. (Of course you can still see my normal Github profile [here](https://github.com/orblivion))
 
 I should note that while I've been a Node.js and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
 
