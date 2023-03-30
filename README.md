@@ -96,6 +96,12 @@ There had been an existing Sandstorm package for Etherpad, but it was a few year
 
 Since my last commit in March 2022, others have made changes and released updates. You can see the public discussion about my part [here](https://github.com/sandstormports/community-project/issues/15).
 
+## [Dashsee - Dash interface for Odysee/LBRY](https://github.com/orblivion/dashsee-mvp)
+
+Angular / Typescript
+
+Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocurrency to interact with the LBRY system in an interface similar to Odysee. The backend of it didn't pan out, but I made a simple frontend that had basic browsing capabilities of Odysee.
+
 # Exercises/Samples
   * **[Python - A file import plugin for Inkscape](https://github.com/orblivion/hpgl-coding-test)**
   * **[Python - A coding test for HelloLabs](https://github.com/orblivion/hellolabs_word_test)**
