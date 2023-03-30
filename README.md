@@ -100,7 +100,7 @@ Since my last commit in March 2022, others have made changes and released update
 
 Angular / Typescript
 
-Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocurrency to interact with the LBRY system in an interface similar to Odysee. The backend of it didn't pan out, but I made a simple frontend that had basic browsing capabilities of Odysee.
+Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocurrency to interact with the LBRY system in an interface similar to Odysee. The backend of it didn't pan out, but I made a simple frontend that copies the (very) basic browsing capabilities of Odysee.
 
 # Exercises/Samples
   * **[Python - A file import plugin for Inkscape](https://github.com/orblivion/hpgl-coding-test)**
