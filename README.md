@@ -103,8 +103,9 @@ Angular / Typescript
 Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocurrency to interact with the LBRY system in an interface similar to Odysee. The backend of it didn't pan out, but I made a simple frontend that copies the (very) basic browsing capabilities of Odysee.
 
 # Exercises/Samples
-  * **[Python - A file import plugin for Inkscape](https://github.com/orblivion/hpgl-coding-test)**
-  * **[Python - A coding test for HelloLabs](https://github.com/orblivion/hellolabs_word_test)**
+  * **[Golang - A coding test](https://github.com/orblivion/ignite-invasion)**
+  * **[Python - A file import plugin for Inkscape (as a coding test)](https://github.com/orblivion/hpgl-coding-test)**
+  * **[Python - A coding test](https://github.com/orblivion/hellolabs_word_test)**
   * **[Erlang (without OTP) - A simple chat program](https://github.com/orblivion/erlang_chat_exercise)**
   * **[Haskell - A Markov chain, or something like it](https://github.com/orblivion/random-chain)**
   * **[Rust - Advent of Code 2022 (first 11 days)](https://github.com/orblivion/aoc-2022)**
