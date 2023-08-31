@@ -1,6 +1,10 @@
 Hello,
 
-I set this page up because I thought that Github's user account interface is not that well suited to a portfolio. It's hard to distinguish one's own projects from contributions made to other projects. Here, I would like to highlight some of the examples you might be looking for, and give a little context to them. (Of course you can still see my normal Github profile [here](https://github.com/orblivion))
+I set this page up because I thought that Github's user account interface is not that well suited to a portfolio. It's hard to distinguish one's own projects from contributions made to other projects. Here, I would like to highlight some of the examples you might be looking for, and give a little context to them. If you're looking for the more standard stuff:
+
+* My [normal Github profile](https://github.com/orblivion)
+* My [LinkedIn](https://www.linkedin.com/in/danielkrol/)
+* My [resume](https://danielkrol.com/resume/)
 
 I should note that while I've been a Node.js and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
 
