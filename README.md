@@ -90,7 +90,7 @@ While running the test suite, I found that cookies were not resetting properly, 
 
 ### README updates developer testing instructions for WebRTC [on localhost](https://github.com/ether/ep_webrtc/pull/32) and [with SSL](https://github.com/ether/ep_webrtc/pull/42/files)
 
-A couple minor documentation examples, again on the WebRTC plugin. It was my first time working with WebRTC and there was some on-ramp time trying to sort out why certain errors were coming. I wanted to try to speed that part along for the next person.
+A couple minor documentation examples, again on the WebRTC plugin. It was my first time working with WebRTC and there was some ramp-up time trying to sort out why certain errors were occurring. I wanted to try to speed that part along for the next person.
 
 ## [Etherpad package for Sandstorm](https://github.com/sandstormports/etherpad-lite-sandstorm)
 
