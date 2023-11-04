@@ -11,7 +11,7 @@ I should note that while I've been a Node.js and Go developer by trade, Python i
 # Table Of Contents
 
 * [My Own Projects](#my-own-projects)
-  * [Desert Atlas (Formerly Share-A-Map) - An OpenStreetMap app for Sandstorm](#share-a-map---an-openstreetmap-app-for-sandstorm)
+  * [Desert Atlas (Formerly Share-A-Map) - An OpenStreetMap app for Sandstorm](#desert-atlas-formerly-share-a-map---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
