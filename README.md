@@ -11,7 +11,7 @@ I should note that while I've been a Node.js and Go developer by trade, Python i
 # Table Of Contents
 
 * [My Own Projects](#my-own-projects)
-  * [Share-A-Map - An OpenStreetMap app for Sandstorm](#share-a-map---an-openstreetmap-app-for-sandstorm)
+  * [Desert Atlas (Formerly Share-A-Map) - An OpenStreetMap app for Sandstorm](#share-a-map---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
@@ -24,13 +24,13 @@ I should note that while I've been a Node.js and Go developer by trade, Python i
 
 # My Own Projects
 
-## [Share-A-Map](https://github.com/orblivion/sandstorm-share-a-map) - An OpenStreetMap app for Sandstorm
+## [Desert Atlas (Formerly Share-A-Map)](https://github.com/orblivion/sandstorm-share-a-map) - An OpenStreetMap app for Sandstorm
 
 This project is a general purpose map web application, aiming to replace the basic functionality of the Google Maps web app the same way that OrganicMaps aims to replace the Google Maps phone app. It's made for a platform called [Sandstorm](https://sandstorm.io). Sandstorm facilitates making easy to manage, private web applications for users who want a simple self-hosting solution.
 
-The application allows users to collaborate by adding bookmark markers to the map. Say, for planning a vacation. Each user can then export the result and import it for use on their OpenStreetMap app on their phone (OrganicMaps, OSMAnd, etc) for navigation. Share-A-Map facilitates privacy: the only entities with access to the data are the specific users of a given map, the Sandstorm administrator, and whoever owns the hardware Sandstorm is running on.
+The application allows users to collaborate by adding bookmark markers to the map. Say, for planning a vacation. Each user can then export the result and import it for use on their OpenStreetMap app on their phone (OrganicMaps, OSMAnd, etc) for navigation. Desert Atlas facilitates privacy: the only entities with access to the data are the specific users of a given map, the Sandstorm administrator, and whoever owns the hardware Sandstorm is running on.
 
-Share-A-Map is able to be private because it's _fully_ self-hosted: all of the tiles are stored on the server (after downloading map data _once_ per map from an external source). By contrast, many OSM apps are not fully self-hosted, and will still call to openstreetmap.org for tiles. Compared to the OSM apps that _are_ fully self-hosted, Share-A-Map is much simpler. It uses Protomaps for the tiles (much smaller) and a simple search backend (sqlite3 with fts5 as of this writing). The usual OSM stack requires postgresql for tiles and elasticsearch for search. As a result, it plays nicely with Sandstorm (which favors simple self-contained apps), and makes for an easy point-and-click experience for users, similar to a phone app, from app installation to map data download to map editing.
+Desert Atlas is able to be private because it's _fully_ self-hosted: all of the tiles are stored on the server (after downloading map data _once_ per map from an external source). By contrast, many OSM apps are not fully self-hosted, and will still call to openstreetmap.org for tiles. Compared to the OSM apps that _are_ fully self-hosted, Desert Atlas is much simpler. It uses Protomaps for the tiles (much smaller) and a simple search backend (sqlite3 with fts5 as of this writing). The usual OSM stack requires postgresql for tiles and elasticsearch for search. As a result, it plays nicely with Sandstorm (which favors simple self-contained apps), and makes for an easy point-and-click experience for users, similar to a phone app, from app installation to map data download to map editing.
 
 As of this writing, the application is still a work-in-progress, but there is a usable demo linked from the repo.
 
