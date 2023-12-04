@@ -32,8 +32,6 @@ The application allows users to collaborate by adding bookmark markers to the ma
 
 Desert Atlas is able to be private because it's _fully_ self-hosted: all of the tiles are stored on the server (after downloading map data _once_ per map from an external source). By contrast, many OSM apps are not fully self-hosted, and will still call to openstreetmap.org for tiles. Compared to the OSM apps that _are_ fully self-hosted, Desert Atlas is much simpler. It uses Protomaps for the tiles (much smaller) and a simple search backend (sqlite3 with fts5 as of this writing). The usual OSM stack requires postgresql for tiles and elasticsearch for search. As a result, it plays nicely with Sandstorm (which favors simple self-contained apps), and makes for an easy point-and-click experience for users, similar to a phone app, from app installation to map data download to map editing.
 
-As of this writing, the application is still a work-in-progress, but there is a usable demo linked from the repo.
-
 ## [Haskell-Synth](https://github.com/orblivion/Haskell-Synth)
 
 An attempt to make a Sound/Music synthesizer, in Haskell. It generates a simple sequence of electronic music based on hard coded instructions. It really sold me on Haskell, as I made some really sophisticated refactors and the compiler kept me in check to an astounding degree.
