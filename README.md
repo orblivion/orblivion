@@ -4,7 +4,7 @@ I set this page up because I thought that Github's user account interface is not
 
 * My [normal Github profile](https://github.com/orblivion)
 * My [LinkedIn](https://www.linkedin.com/in/danielkrol/)
-* My [resume](https://danielkrol.com/resume/)
+* My [resume](https://danielkrol.com/resume/) (which has my email address)
 
 I should note that while I've been a Node.js and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
 
