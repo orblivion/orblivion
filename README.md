@@ -1,12 +1,11 @@
 Hello,
 
-I set this page up because I thought that Github's user account interface is not that well suited to a portfolio. It's hard to distinguish one's own projects from contributions made to other projects. Here, I would like to highlight some of the examples you might be looking for, and give a little context to them. If you're looking for the more standard stuff:
+This page serves as my Open Source Portfolio. Here, I highlight and give context to some of my own projects as well as contributions made to other projects. If you're looking for the more standard stuff:
 
-* My [normal Github profile](https://github.com/orblivion)
 * My [LinkedIn](https://www.linkedin.com/in/danielkrol/)
 * My [resume](https://danielkrol.com/resume/) (which has my email address)
 
-I should note that while I've been a Node.js and Go developer by trade, Python is still my strong suit, and I'm a big fan of Haskell. You may find a disproportionate amount of Haskell among what I've done in my free time, which has a strong correlation with what ends up on Github. But, I've included some Python.
+I've been a Node.js, Go, and Pyhton developer by trade. I'm also a big fan of Haskell, which you'll see below among my peronal projects. I've also dipped into some Rust, which I've also included.
 
 # Table Of Contents
 
