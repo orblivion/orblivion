@@ -5,7 +5,7 @@ This page serves as my Open Source Portfolio. Here, I highlight and give context
 * My [LinkedIn](https://www.linkedin.com/in/danielkrol/)
 * My [resume](https://danielkrol.com/resume/) (which has my email address)
 
-I've been a Node.js, Go, and Pyhton developer by trade. I'm also a big fan of Haskell, which you'll see below among my peronal projects. I've also dipped into some Rust, which I've also included.
+I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Haskell, which you'll see below among my peronal projects. I've also dipped into some Rust, which I've also included.
 
 # Table Of Contents
 
