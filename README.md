@@ -113,3 +113,4 @@ Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocu
   * **[Erlang (without OTP) - A simple chat program](https://github.com/orblivion/erlang_chat_exercise)**
   * **[Haskell - A Markov chain, or something like it](https://github.com/orblivion/random-chain)**
   * **[Rust - Advent of Code 2022 (first 11 days)](https://github.com/orblivion/aoc-2022)**
+  * **[Rust - Contributions to SquireCore, part of a Magic The Gathering tournament manager](https://github.com/SquireTournamentServices/SquireCore/pulls?q=is%3Apr+author%3Aorblivion)**
