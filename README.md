@@ -33,11 +33,11 @@ I [announced the release](https://sandstorm.org/news/2023-12-05-osm-on-sandstorm
 
 I [also had the great opportunity](https://gis.harvard.edu/event/desert-atlas-self-hosted-collaborative-online-map-easy-and-private) to present about it at the Center for Geograhic Analysis at Harvard.
 
-<img src="img/desert-atlas-2.png" alt="Desert Atlas screenshot" width="500">
+<img src="img/desert-atlas-3.png" alt="Desert Atlas screenshot" width="500">
 
 The application allows users to collaborate by adding bookmark markers to the map. Say, for planning a vacation. Each user can then export the result and import it for use on their OpenStreetMap app on their phone (OrganicMaps, OSMAnd, etc) for navigation. Desert Atlas facilitates privacy: the only entities with access to the data are the specific users of a given map, the Sandstorm administrator, and whoever owns the hardware Sandstorm is running on.
 
-<img src="img/desert-atlas-3.png" alt="Desert Atlas diagram" width="500">
+<img src="img/desert-atlas-2.png" alt="Desert Atlas diagram" width="500">
 
 Desert Atlas is able to be private because it's _fully_ self-hosted: all of the tiles are stored on the server (after downloading map data _once_ per map from an external source). By contrast, many OSM apps are not fully self-hosted, and will still call to openstreetmap.org for tiles. Compared to the OSM apps that _are_ fully self-hosted, Desert Atlas is much simpler. It uses Protomaps for the tiles (much smaller) and a simple search backend (sqlite3 with fts5 as of this writing). The usual OSM stack requires postgresql for tiles and elasticsearch for search. As a result, it plays nicely with Sandstorm (which favors simple self-contained apps), and makes for an easy point-and-click experience for users, similar to a phone app, from app installation to map data download to map editing.
 
