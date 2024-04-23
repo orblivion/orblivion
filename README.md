@@ -25,6 +25,8 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
 
 ## [Desert Atlas (Formerly Share-A-Map)](https://github.com/orblivion/sandstorm-share-a-map) - An OpenStreetMap app for Sandstorm
 
+![Desert Atlas icon](img/desert-atlas.png)
+
 This project is a general purpose map web application, aiming to replace the basic functionality of the Google Maps web app the same way that OrganicMaps aims to replace the Google Maps phone app. It's made for a platform called [Sandstorm](https://sandstorm.io). Sandstorm facilitates making easy to manage, private web applications for users who want a simple self-hosting solution.
 
 I [announced the release](https://sandstorm.org/news/2023-12-05-osm-on-sandstorm) on the Sandstorm Community blog. The post includes an extentsive technical writeup.
