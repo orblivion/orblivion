@@ -25,7 +25,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
 
 ## [Desert Atlas (Formerly Share-A-Map)](https://github.com/orblivion/sandstorm-share-a-map) - An OpenStreetMap app for Sandstorm
 
-![Desert Atlas icon](img/desert-atlas.png)
+![Desert Atlas icon](img/desert-atlas.png =200x200)
 
 This project is a general purpose map web application, aiming to replace the basic functionality of the Google Maps web app the same way that OrganicMaps aims to replace the Google Maps phone app. It's made for a platform called [Sandstorm](https://sandstorm.io). Sandstorm facilitates making easy to manage, private web applications for users who want a simple self-hosting solution.
 
@@ -51,7 +51,7 @@ The initial version of the Python client for the Samurai api created by FeeFight
 
 ## [Kiwix package for Sandstorm](https://github.com/orblivion/KiwixSandstorm)
 
-![Kiwix icon](img/kiwix.png)
+![Kiwix icon](img/kiwix.png =200x200)
 
 This project is to package an application called [Kiwix](https://www.kiwix.org) for a platform called [Sandstorm](https://sandstorm.io). Neither Kiwix nor Sandstorm per se are my own work.
 
@@ -65,7 +65,7 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 
 ## LBRY
 
-![LBRY icon](img/lbry.png)
+![LBRY icon](img/lbry.png =200x200)
 
 I've done some work for [LBRY](https://lbry.com/) on a contract basis. My main contribution thus far has been a self-hosted server written in Go that allows users to synchronize their LBRY wallets between multiple clients. As of this writing, the wallet sync project overall is in progress, and it hasn't been implemented in any LBRY clients yet.
 
@@ -79,7 +79,7 @@ Once support is added to clients, I (or whoever is in charge of the server) will
 
 ## Etherpad (JavaScript)
 
-![Etherpad icon](img/etherpad.svg)
+![Etherpad icon](img/etherpad.svg =200x200)
 
 I've done some work for the Etherpad project on a contract basis. I will point to a few particular pull requests:
 
