@@ -51,7 +51,7 @@ The initial version of the Python client for the Samurai api created by FeeFight
 
 ## [Kiwix package for Sandstorm](https://github.com/orblivion/KiwixSandstorm)
 
-![Kiwix icon](img/kiwix.png =200x200)
+<img src="img/kiwix.png" alt="Kiwix icon" width="200">
 
 This project is to package an application called [Kiwix](https://www.kiwix.org) for a platform called [Sandstorm](https://sandstorm.io). Neither Kiwix nor Sandstorm per se are my own work.
 
@@ -65,7 +65,7 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 
 ## LBRY
 
-![LBRY icon](img/lbry.png =200x200)
+<img src="img/lbry.png" alt="LBRY icon" width="200">
 
 I've done some work for [LBRY](https://lbry.com/) on a contract basis. My main contribution thus far has been a self-hosted server written in Go that allows users to synchronize their LBRY wallets between multiple clients. As of this writing, the wallet sync project overall is in progress, and it hasn't been implemented in any LBRY clients yet.
 
@@ -79,7 +79,7 @@ Once support is added to clients, I (or whoever is in charge of the server) will
 
 ## Etherpad (JavaScript)
 
-![Etherpad icon](img/etherpad.svg =200x200)
+<img src="img/etherpad.svg" alt="Etherpad icon" width="200">
 
 I've done some work for the Etherpad project on a contract basis. I will point to a few particular pull requests:
 
