@@ -51,6 +51,8 @@ The initial version of the Python client for the Samurai api created by FeeFight
 
 ## [Kiwix package for Sandstorm](https://github.com/orblivion/KiwixSandstorm)
 
+![Kiwix icon](img/kiwix.png)
+
 This project is to package an application called [Kiwix](https://www.kiwix.org) for a platform called [Sandstorm](https://sandstorm.io). Neither Kiwix nor Sandstorm per se are my own work.
 
 Kiwix makes it easy to have your own copy of Wikipedia and many other open data sites. However, as with any self-hosted web\* application, it requires a small amount of maintenance to set up and maintain. Sandstorm is a platform that greatly reduces maintenance of running self-hosted applications. Here it is [listed on the Sandstorm Marketplace](https://apps.sandstorm.io/app/5uh349d0kky2zp5whrh2znahn27gwha876xze3864n0fu9e5220h). Sandstorm is a very restrictive environment and requires some work to configure an application to work with it. Once it does, though, it has the benefits of simplicity of maintenance, security, and even some interoperability with other applications.
@@ -63,6 +65,8 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 
 ## LBRY
 
+![LBRY icon](img/lbry.png)
+
 I've done some work for [LBRY](https://lbry.com/) on a contract basis. My main contribution thus far has been a self-hosted server written in Go that allows users to synchronize their LBRY wallets between multiple clients. As of this writing, the wallet sync project overall is in progress, and it hasn't been implemented in any LBRY clients yet.
 
 This is different from most servers in that the important user data (the wallet) needs to be encrypted. The server has no insight about the data with which to reconcile concurrent changes from multiple clients. Without careful planning, a client could (however rarely) overwrite a change created by another client, leading to data loss (private keys!). Every client needs to download the latest version from the server before applying new changes and pushing it back. This is enforced with a "sequence" number for wallets. There's also the potential for hostile actors. We ideally don't want to trust anything other than the clients. As such, the sequence numbers along with encrypted wallets are cryptographically signed by clients so that other clients can trust them.
@@ -74,6 +78,8 @@ Once support is added to clients, I (or whoever is in charge of the server) will
 [https://github.com/orblivion/lbry-wallet-sync-draft/blob/master/spec/sync.md](https://github.com/orblivion/lbry-wallet-sync-draft/blob/master/spec/sync.md)
 
 ## Etherpad (JavaScript)
+
+![Etherpad icon](img/etherpad.svg)
 
 I've done some work for the Etherpad project on a contract basis. I will point to a few particular pull requests:
 
