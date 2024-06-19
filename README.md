@@ -126,4 +126,10 @@ Dashsee ("Dash" + "Odysee") was an attempt to allow holders of the Dash cryptocu
   * **[Erlang (without OTP) - A simple chat program](https://github.com/orblivion/erlang_chat_exercise)**
   * **[Haskell - A Markov chain, or something like it](https://github.com/orblivion/random-chain)**
   * **[Rust - Advent of Code 2022 (first 11 days)](https://github.com/orblivion/aoc-2022)**
-  * **[Rust - Contributions to SquireCore, part of a Magic The Gathering tournament manager](https://github.com/SquireTournamentServices/SquireCore/pulls?q=is%3Apr+author%3Aorblivion)**
+  * **[Rust - Pull Request to SquireCore, part of a Magic The Gathering tournament manager](https://github.com/SquireTournamentServices/SquireCore/pull/202)**
+
+    This project was written with the actor model. The maintainer pulled out the actor model stuff into its own package and tasked me with integrating it back into main project as an imported library. The library wasn't identical to what was in the main package, so I had to figure out how to adjust the project code to fit.
+
+    It hasn't been merged because the maintainer had to resolve some conflicts and I think has not gotten around to it.
+
+    I have played more with Haskell than Rust, and I feel that my experience with Haskell gave me very useful instincts for navigating the weird type level issues here.
