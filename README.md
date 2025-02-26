@@ -43,7 +43,9 @@ Desert Atlas is able to be private because it's _fully_ self-hosted: all of the 
 
 ## [Haskell-Synth](https://github.com/orblivion/Haskell-Synth)
 
-An attempt to make a Sound/Music synthesizer, in Haskell. It generates a simple sequence of electronic music out of raw wave forms based on hard coded instructions. It really sold me on Haskell, as I made some really sophisticated refactors and the compiler kept me in check to an astounding degree.
+An attempt to make a Sound/Music synthesizer, in Haskell. It generates a simple sequence of electronic music out of raw wave forms based on hard coded instructions. [Like this](https://github.com/orblivion/Haskell-Synth/blob/master/example-output/beat.ogg?raw=true) or [this](https://github.com/orblivion/Haskell-Synth/blob/master/example-output/example.ogg?raw=true).
+
+It really sold me on Haskell, as I made some really sophisticated refactors and the compiler kept me in check to an astounding degree.
 
 ## [Feed Getter (Haskell)](https://github.com/orblivion/feedGetter)
 
