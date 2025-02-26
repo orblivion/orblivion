@@ -10,7 +10,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
 # Table Of Contents
 
 * [My Own Projects](#my-own-projects)
-  * [Desert Atlas (Formerly Share-A-Map) - An OpenStreetMap app for Sandstorm](#desert-atlas-formerly-share-a-map---an-openstreetmap-app-for-sandstorm)
+  * [Desert Atlas - An OpenStreetMap app for Sandstorm](#desert-atlas---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
@@ -23,7 +23,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
 
 # My Own Projects
 
-## [Desert Atlas (Formerly Share-A-Map)](https://github.com/orblivion/sandstorm-share-a-map) - An OpenStreetMap app for Sandstorm
+## [Desert Atlas](https://github.com/orblivion/desert-atlas) - An OpenStreetMap app for Sandstorm
 
 <img src="img/desert-atlas.png" alt="Desert Atlas icon" width="200">
 
