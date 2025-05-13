@@ -16,6 +16,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
 * [Open Source Contributions](#open-source-contributions)
+  * [Zulip](#zulip)
   * [LBRY](#lbry)
   * [Etherpad (JavaScript)](#etherpad-javascript)
   * [Etherpad package for Sandstorm](#etherpad-package-for-sandstorm)
@@ -72,6 +73,20 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 \* Kiwix also comes as a phone and desktop application
 
 # Open Source Contributions
+
+## Zulip
+
+<img src="img/zulip.svg" alt="Zulip icon" width="350">
+
+[Zulip](https://zulip.com) is chat platform for organizations, competing with Slack and Discord. It's especially great for open source because channels can be made public and searchable, like a mailing list.
+
+Zulip has great developer tools and onboarding documentation. Accompanying that, it has strict guidelines for things like commit messages, linting, and test coverage.
+
+### [Avatar upload UI broken when blocking Gravatar](https://github.com/zulip/zulip/issues/19123)
+
+As of this writing this issue is assigned to me. Since this was my first contribution to Zulip, I split it into three pull requests to keep it simpler. So far one PR is merged and the others are in progress.
+
+* [Handle gravatar domain blocked for navbar avatar](https://github.com/zulip/zulip/pull/34370)
 
 ## LBRY
 
