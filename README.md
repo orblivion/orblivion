@@ -76,7 +76,7 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 
 ## Zulip
 
-<img src="img/zulip.svg" alt="Zulip icon" width="350">
+<img src="img/zulip.svg" alt="Zulip icon" width="250">
 
 [Zulip](https://zulip.com) is chat platform for organizations, competing with Slack and Discord. It's especially great for open source because channels can be made public and searchable, like a mailing list.
 
@@ -86,7 +86,7 @@ Zulip has great developer tools and onboarding documentation. Accompanying that,
 
 As of this writing this issue is assigned to me. Since this was my first contribution to Zulip, I split it into three pull requests to keep it simpler. So far one PR is merged and the others are in progress.
 
-* [Handle gravatar domain blocked for navbar avatar](https://github.com/zulip/zulip/pull/34370)
+* [(zulip/zulip#34370) Handle gravatar domain blocked for navbar avatar](https://github.com/zulip/zulip/pull/34370)
 
 ## LBRY
 
