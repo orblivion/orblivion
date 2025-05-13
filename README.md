@@ -5,7 +5,7 @@ This page serves as my Open Source Portfolio. Here, I highlight and give context
 * My [LinkedIn](https://www.linkedin.com/in/danielkrol/)
 * My [resume](https://danielkrol.com/resume/) (which has my email address)
 
-I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Haskell, which you'll see below among my peronal projects. I've also dipped into some Rust, which I've also included.
+I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Haskell, which you'll see below among my personal projects. I've also dipped into some Rust, which I've also included.
 
 # Table Of Contents
 
@@ -30,9 +30,9 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
 
 This project is a general purpose map web application, aiming to replace the basic functionality of the Google Maps web app the same way that OrganicMaps aims to replace the Google Maps phone app. It's made for a platform called [Sandstorm](https://sandstorm.io). Sandstorm facilitates making easy to manage, private web applications for users who want a simple self-hosting solution.
 
-I [announced the release](https://sandstorm.org/news/2023-12-05-osm-on-sandstorm) on the Sandstorm Community blog. The post includes an extentsive technical writeup.
+I [announced the release](https://sandstorm.org/news/2023-12-05-osm-on-sandstorm) on the Sandstorm Community blog. The post includes an extensive technical writeup.
 
-I [also had the great opportunity](https://gis.harvard.edu/event/desert-atlas-self-hosted-collaborative-online-map-easy-and-private) to present about it at the Center for Geograhic Analysis at Harvard.
+I [also had the great opportunity](https://gis.harvard.edu/event/desert-atlas-self-hosted-collaborative-online-map-easy-and-private) to present about it at the Center for Geographic Analysis at Harvard.
 
 <img src="img/desert-atlas-3.png" alt="Desert Atlas screenshot" width="500">
 
