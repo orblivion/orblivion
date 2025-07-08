@@ -92,7 +92,11 @@ As of this writing this issue is assigned to me. Since this was my first contrib
 
 <img src="img/lbry.png" alt="LBRY icon" width="200">
 
-I've done some work for [LBRY](https://lbry.com/) on a contract basis. My main contribution thus far has been a self-hosted server written in Go that allows users to synchronize their LBRY wallets between multiple clients. As of this writing, the wallet sync project overall is in progress, and it hasn't been implemented in any LBRY clients yet.
+I've done some work for [LBRY](https://lbry.com/) on a contract basis.
+
+### Wallet Sync Server
+
+My main contribution was a self-hosted server written in Go that allows users to synchronize their LBRY wallets between multiple clients. Unfortunately LBRY as a company went under before we had a chance to implement it in any clients.
 
 This is different from most servers in that the important user data (the wallet) needs to be encrypted. The server has no insight about the data with which to reconcile concurrent changes from multiple clients. Without careful planning, a client could (however rarely) overwrite a change created by another client, leading to data loss (private keys!). Every client needs to download the latest version from the server before applying new changes and pushing it back. This is enforced with a "sequence" number for wallets. There's also the potential for hostile actors. We ideally don't want to trust anything other than the clients. As such, the sequence numbers along with encrypted wallets are cryptographically signed by clients so that other clients can trust them.
 
@@ -101,6 +105,12 @@ This is different from most servers in that the important user data (the wallet)
 Once support is added to clients, I (or whoever is in charge of the server) will go back and consider more edge cases. Before I started coding, I started writing some diagrams thinking about various edge case scenarios. The diagrams are not complete; we decided to make an initial version of the code so we had some practical experience before spending more time on the theoretical. That said, here's one of the documents I started to give an idea of what I was considering:
 
 [https://github.com/orblivion/lbry-wallet-sync-draft/blob/master/spec/sync.md](https://github.com/orblivion/lbry-wallet-sync-draft/blob/master/spec/sync.md)
+
+### LBRY transactions in the browser
+
+One interesting side project I did, where I dug into some blockchain internals, was to create a proof-of-concept fork of a Bitcoin library in TypeScript/JavaScript that would work with LBRY. LBRY is a fork of Bitcoin with three new opcodes and some different constants. I then used this library to make a demo of creating LBRY transactions in the browser.
+
+You can [see my changes here](https://github.com/orblivion/bitcoinjs-lib/compare/11202eb74cc9d9a7338ef4aa04c78061f0544289..ae14ef1355d2d8bb3e9aca98a01201d279e085bf).
 
 ## Etherpad (JavaScript)
 
