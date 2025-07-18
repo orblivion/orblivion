@@ -14,6 +14,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
+  * [Ntfy package for Sandstorm](#ntfy-package-for-sandstorm)
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
 * [Open Source Contributions](#open-source-contributions)
   * [Zulip](#zulip)
@@ -59,6 +60,44 @@ A Podcast downloader written in Haskell that takes advantage of Haskell's async 
 ## [Fee Fighters - Samurai Python Client](https://github.com/orblivion/samurai-client-python/tree/demo)
 
 The initial version of the Python client for the Samurai api created by FeeFighters (now part of Groupon). I created this while working for Alltuition in 2011, where we were using FeeFighters to process payments. I should note that this is early in my Python days, and I've improved my style since then. (Though, you'll see I did a cleanup pass of this code in 2016).
+
+## [Ntfy package for Sandstorm](https://github.com/orblivion/ntfy/tree/sandstorm/.sandstorm)
+
+[Ntfy](https://ntfy.sh) is a self-hosted push notification service. I did not create it, but I packaged it for Sandstorm.
+
+### Background
+
+Ntfy is good for two main things:
+
+Firstly, for those trying to "de-Google" their Android or GrapheneOS phone, it can deliver push notifications with an accompanying Ntfy for Android app, without Firebase Cloud Messaging. It works with a limited number of applications, including Tusky (for Mastodon) and Element (for Matrix). It implements a paradigm called [UnifiedPush](https://unifiedpush.org/).
+
+Secondly, for web apps that don't necessarily have an accopmanying phone app, it may be useful to recieve push notifications. For instance, [Changedetection.io](https://changedetection.io/) can alert you when a web page changes.
+
+Ntfy operates a public server, but it can also be self-hosted.
+
+### What I did
+
+I wanted to see push notifications on Sandstorm, my favorite self-hosting web application platform. It's very easy to use. Once it's installed, installing apps is trivial.
+
+I wanted to make it easy for users who want UnifiedPush for their Android apps to be able to self-host ntfy.
+
+Getting it to work was straightforward. There was a little bit of adaptation to Sandstorm. Most of my time was spent on investigating and warning about any ntfy features that are incompatible with Sandstorm. Sandstorm is very locked down, which can complicate porting of applications.
+
+I added an "offer template", which is Sandstorm's way of giving users an API token. Using Sandstorm's offer templates and API tokens makes it a more uniform Sandstorm experience with other apps. Sandstorm API tokens can have limited scope, and can be revoked. Standard ntfy server has its own way of locking down, which requires configuration. My hope is to leverage Sandstorm to offer similar control to users right in the UI.
+
+I also made a couple changes to the UI. I added an onboarding section to the web UI, which I think ntfy could possibly benefit from regardless. I also had to remove some features from the UI. Unfortunately, certain ntfy features don't work because they use HTTP headers that Sandstorm currently does not pass through. I also gave a heads up to users that these features won't work over the API.
+
+### What comes next
+
+I've settled on a version of things that I was comfortable releasing. I can move on to some cool features. However what comes next is what's most exciting. 
+
+I'd like to improve onboarding. It's a big block of text. I'd like to improve it by making it more interactive and only showing pertinent information.
+
+I would like some better scopes for Sandstorm tokens. For instance, for 3rd party integrations (Changedetection.io, etc) I could make the API write-only, or limited to a single topic, which is similar to what ntfy offers.
+
+Now, if somebody wants to create a Sandstorm package for Changedetection.io (which is also self-hostable), or any other supported integrations, the user could conveniently host it alongside ntfy right on their Sandstorm server. Furthermore, if we could add "powerbox" support, we could make the UI much smoother.
+
+In the future I might take advantage of the fact that Sandstorm allows ntfy to be more private than the default version. For instance, I could add a dashboard to allow the user to monitor activity on the server.
 
 ## [Kiwix package for Sandstorm](https://github.com/orblivion/KiwixSandstorm)
 
