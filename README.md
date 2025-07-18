@@ -89,15 +89,19 @@ I also made a couple changes to the UI. I added an onboarding section to the web
 
 ### What comes next
 
-I've settled on a version of things that I was comfortable releasing. I can move on to some cool features. However what comes next is what's most exciting. 
+Users can now easily host ntfy alongside their other Sandstorm applications. However what comes next is what's most exciting. 
+
+If somebody wants to create a Sandstorm package with a ntfy integration (such as Changedetection.io, which is self-hostable), the user could conveniently host it alongside ntfy right on their Sandstorm server. But we could go further. Sandstorm has the ability to integrate apps together through its user interface with a feature called the "powerbox". The obvious goal would be to allow the user to connect their ntfy integration apps to their ntfy app through a menu, without having to copy and paste API URLs.
+
+Some simpler goals:
 
 I'd like to improve onboarding. It's a big block of text. I'd like to improve it by making it more interactive and only showing pertinent information.
 
-I would like some better scopes for Sandstorm tokens. For instance, for 3rd party integrations (Changedetection.io, etc) I could make the API write-only, or limited to a single topic, which is similar to what ntfy offers.
+I would like some better scopes for Sandstorm tokens. For instance, for ntfy integrations controlled by 3rd parties, I could make the API write-only, and/or limited to a single topic. This is similar to what ntfy offers.
 
-Now, if somebody wants to create a Sandstorm package for Changedetection.io (which is also self-hostable), or any other supported integrations, the user could conveniently host it alongside ntfy right on their Sandstorm server. Furthermore, if we could add "powerbox" support, we could make the UI much smoother.
+In the future I might take advantage of the fact that Sandstorm allows ntfy to be relatively private. For instance, I could add a dashboard to allow the user to monitor activity on the server, obviously inaccessible through the API. This would not make sense in the standard version because it's meant to be a public server.
 
-In the future I might take advantage of the fact that Sandstorm allows ntfy to be more private than the default version. For instance, I could add a dashboard to allow the user to monitor activity on the server.
+Finally, I'd like to try to add some of the missing features, such as attaching images.
 
 ## [Kiwix package for Sandstorm](https://github.com/orblivion/KiwixSandstorm)
 
