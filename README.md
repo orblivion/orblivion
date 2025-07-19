@@ -63,6 +63,8 @@ The initial version of the Python client for the Samurai api created by FeeFight
 
 ## [Ntfy package for Sandstorm](https://github.com/orblivion/ntfy/tree/sandstorm/.sandstorm)
 
+<img src="img/ntfy.png" alt="ntfy icon" width="200">
+
 [Ntfy](https://ntfy.sh) is a self-hosted push notification service. I did not create it, but I packaged it for Sandstorm.
 
 ### Background
