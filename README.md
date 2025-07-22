@@ -13,9 +13,9 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
   * [Desert Atlas - An OpenStreetMap app for Sandstorm](#desert-atlas---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
-  * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
   * [Ntfy package for Sandstorm](#ntfy-package-for-sandstorm)
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
+  * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
 * [Open Source Contributions](#open-source-contributions)
   * [Zulip](#zulip)
   * [LBRY](#lbry)
@@ -56,10 +56,6 @@ It really sold me on Haskell, as I made some really sophisticated refactors and 
 ## [Feed Getter (Haskell)](https://github.com/orblivion/feedGetter)
 
 A Podcast downloader written in Haskell that takes advantage of Haskell's async paradigm. (No UI; I prefer to use my existing audio players)
-
-## [Fee Fighters - Samurai Python Client](https://github.com/orblivion/samurai-client-python/tree/demo)
-
-The initial version of the Python client for the Samurai api created by FeeFighters (now part of Groupon). I created this while working for Alltuition in 2011, where we were using FeeFighters to process payments. I should note that this is early in my Python days, and I've improved my style since then. (Though, you'll see I did a cleanup pass of this code in 2016).
 
 ## [Ntfy package for Sandstorm](https://github.com/orblivion/ntfy/tree/sandstorm/.sandstorm)
 
@@ -112,6 +108,10 @@ Kiwix makes it easy to have your own copy of Wikipedia and many other open data 
 This is mostly a packaging/building exercise, and I helped Kiwix identify some [build errors](https://github.com/kiwix/kiwix-lib/issues/44) and even a [licensing problem](https://github.com/openzim/libzim/issues/30) along the way. It is also in part a development exercise, as it includes a custom uploader that played well with Sandstorm, though it was rather hacked together and is not the greatest example of my work as a developer per se. In particular, I needed to handle large files in a novel way as Sandstorm at the time did not support proper Range requests.
 
 \* Kiwix also comes as a phone and desktop application
+
+## [Fee Fighters - Samurai Python Client](https://github.com/orblivion/samurai-client-python/tree/demo)
+
+The initial version of the Python client for the Samurai api created by FeeFighters (now part of Groupon). I created this while working for Alltuition in 2011, where we were using FeeFighters to process payments. I should note that this is early in my Python days, and I've improved my style since then. (Though, you'll see I did a cleanup pass of this code in 2016).
 
 # Open Source Contributions
 
