@@ -125,7 +125,7 @@ Zulip has great developer tools and onboarding documentation. Accompanying that,
 
 ### [Avatar upload UI broken when blocking Gravatar](https://github.com/zulip/zulip/issues/19123)
 
-As of this writing this issue is assigned to me. Since this was my first contribution to Zulip, I split it into three pull requests to keep it simpler. So far one PR is merged and the others are in progress.
+As of this writing this issue is assigned to me. Since this was my first contribution to Zulip, I split it into three pull requests to keep it simpler. So far this one PR is merged (and [released](https://blog.zulip.com/2025/08/13/zulip-11-0-released/)!)
 
 * [(zulip/zulip#34370) Handle gravatar domain blocked for navbar avatar](https://github.com/zulip/zulip/pull/34370)
 
