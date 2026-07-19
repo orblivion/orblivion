@@ -13,7 +13,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
   * [Desert Atlas - An OpenStreetMap app for Sandstorm](#desert-atlas---an-openstreetmap-app-for-sandstorm)
   * [Haskell-Synth](#haskell-synth)
   * [Feed Getter (Haskell)](#feed-getter-haskell)
-  * [Ntfy package for Sandstorm](#ntfy-package-for-sandstorm)
+  * [Sntfy (Ntfy package for Sandstorm)](#ntfy-package-for-sandstorm)
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
 * [Open Source Contributions](#open-source-contributions)
@@ -57,7 +57,7 @@ It really sold me on Haskell, as I made some really sophisticated refactors and 
 
 A Podcast downloader written in Haskell that takes advantage of Haskell's async paradigm. (No UI; I prefer to use my existing audio players)
 
-## [Ntfy package for Sandstorm](https://github.com/orblivion/ntfy/tree/sandstorm/.sandstorm)
+## [Sntfy (Ntfy package for Sandstorm)](https://apps.sandstorm.io/app/c6rk81r4qk6dm3k04x1kxmyccqewhh4npuxeyg1xrpfypn2ddy0h) ([source](https://github.com/orblivion/ntfy/tree/sandstorm/.sandstorm))
 
 <img src="img/ntfy.png" alt="ntfy icon" width="200">
 
