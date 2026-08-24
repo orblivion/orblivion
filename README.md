@@ -17,6 +17,7 @@ I've been a Node.js, Go, and Python developer by trade. I'm also a big fan of Ha
   * [Kiwix package for Sandstorm](#kiwix-package-for-sandstorm)
   * [Fee Fighters - Samurai Python Client](#fee-fighters---samurai-python-client)
 * [Open Source Contributions](#open-source-contributions)
+  * [Internet-in-a-Box](#internet-in-a-box)
   * [Zulip](#zulip)
   * [LBRY](#lbry)
   * [Etherpad (JavaScript)](#etherpad-javascript)
@@ -114,6 +115,18 @@ This is mostly a packaging/building exercise, and I helped Kiwix identify some [
 The initial version of the Python client for the Samurai api created by FeeFighters (now part of Groupon). I created this while working for Alltuition in 2011, where we were using FeeFighters to process payments. I should note that this is early in my Python days, and I've improved my style since then. (Though, you'll see I did a cleanup pass of this code in 2016).
 
 # Open Source Contributions
+
+## [Internet-in-a-Box](https://internet-in-a-box.org)
+
+<img src="img/iiab.jpg" alt="Internet-in-a-Box icon" width="200">
+
+Internet-in-a-Box is a customizable self-hosted digital library made for cheap hardware in zero-connectivity environments. It is featured in the [Wikipedia store](https://store.wikimedia.org/products/internet-in-a-box), though users typically set up their own. IIAB is designed for educational settings in parts of the world with limited resources. A common setup is installing on a 256GB SD card on a Raspberry Pi 3. However, IIAB aims to keep its main functionality working on a Raspberry Pi Zero 2 W which has only 512MB of RAM. IIAB is designed to be customizable because users often need to decide how to use their limited disk space: Wikipedia, Khan Academy, OpenStreetMap, etc?
+
+I was brought on board to create the new version of the [IIAB Maps](https://github.com/iiab/iiab/tree/master/roles/maps) application. It started off as a basic packaging of [maps.black](https:/maps.black) which includes OpenStreetMap, satellite, and terrain. This part only includes the tiles, i.e. the visible part, no search or navigation (yet). I opted for the pmtiles format (rather than mbtiles) because it can be served statically using Nginx directly. This is less work on the server side, which makes it work reasonably well even on the Zero 2 W.
+
+From there I added a couple features to allow users to trade off detail for disk space. Firstly, I added installation options to allow users to select between a few different maximum zoom levels for their world map data downloads. After that, I implemented a feature called "Full Quality Regions" that allows the user to download a part of the map at full quality even if they chose a smaller file for the full planet.
+
+With that in place, we wanted to see if we could include something useful for search as well. I initally tried including Nominatim, which is the default search engine for OpenStreetMap. It uses psql for the back end usually, but I went with an experimental option that uses sqlite3. It worked okay on a Raspberry Pi 500, but on the Zero 2 W it was nearly unusable for a large data set. So what to try next? I could have hacked together something simple using an sqlite3 database, but I wanted to try a radical approach. Since the Zero 2 W functions well with statically served map tiles (i.e. very little work on the back end), I looked for ways to statically host a search engine. I found a project online that had a proof of concept and adapted it to our needs. It turns out to be quite simple: a directory of json files where the first 3 letters of any search token in a search result will determine which json file it goes into. For instance, "New York" will be found in `new.json` and `yor.json`. For 165k cities, this works quite well (and I have ideas for making a much larger search index). You can see the database import script [here](https://github.com/iiab/maps2/tree/c3a6b45090c4cd446f5c4fa653578a451ad59aaf/build-databases/static) and the front end code that uses it [here](https://github.com/iiab/iiab/blob/c3a6b45090c4cd446f5c4fa653578a451ad59aaf/roles/maps/files/static_search.js).
 
 ## Zulip
 
