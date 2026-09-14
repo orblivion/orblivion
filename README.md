@@ -120,7 +120,7 @@ The initial version of the Python client for the Samurai api created by FeeFight
 
 <img src="img/iiab.jpg" alt="Internet-in-a-Box icon" width="200">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vUobJN8nD4c?si=O4HCisv8bCM8oJ5M" title="State of OpenStreetMap on Internet-in-a-Box ~ Daniel Krol & Jacob Chapman" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![State of OpenStreetMap on Internet-in-a-Box ~ Daniel Krol & Jacob Chapman](https://img.youtube.com/vi/vUobJN8nD4c/0.jpg)](https://youtube.com/watch?v=vUobJN8nD4c "State of OpenStreetMap on Internet-in-a-Box ~ Daniel Krol & Jacob Chapman")
 
 Internet-in-a-Box is a customizable self-hosted digital library made for cheap hardware in zero-connectivity environments. It is featured in the [Wikipedia store](https://store.wikimedia.org/products/internet-in-a-box), though users typically set up their own. IIAB is designed for educational settings in parts of the world with limited resources. A common setup is installing on a 256GB SD card on a Raspberry Pi 3. However, IIAB aims to keep its main functionality working on a Raspberry Pi Zero 2 W which has only 512MB of RAM. IIAB is designed to be customizable because users often need to decide how to use their limited disk space: Wikipedia, Khan Academy, OpenStreetMap, etc?
 
